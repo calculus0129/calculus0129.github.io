@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll" # activate jekyll theme
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -286,7 +286,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: true # 읽는데 걸리는 소요시간 표시
+      show_date: true # 포스팅 날짜 표시
       comments: # true
       share: true
       related: true
