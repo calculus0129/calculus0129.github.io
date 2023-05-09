@@ -2,10 +2,10 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Example .md file"
-    url: https://calculus0129.github.io/example-md-file.md
+  - title: "Post"
+    url: /post/
   - title: "GD Website"
-    url: /gdwebsite/
+    url: https://calculus0129.github.io/gdwebsite/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
