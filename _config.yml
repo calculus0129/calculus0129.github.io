@@ -15,7 +15,7 @@ theme                  : "minimal-mistakes-jekyll" # activate jekyll theme
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 title                    : "재현이가 만들어보는 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
