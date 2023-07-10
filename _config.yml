@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "재현이가 만들어보는 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Jaehyun Bhang"
 description              : "An amazing website."
 url                      : "https://calculus0129.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,7 +107,7 @@ author:
   name             : "Jaehyun Bhang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Korea"
   email            :
   links:
     - label: "Email"
