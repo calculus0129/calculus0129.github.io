@@ -29,7 +29,7 @@ logo                     : /assets/images/masthead_logo-rb(88x88).png # path of 
 masthead_title           : Masthead Title # overrides the website title displayed in the masthead, use " " for no title
 myvar                    : true # My variable to include the category
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 130 # 1분에 읽힐 word 개수
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -60,7 +60,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : # true, false (default) # Enabling site-wide Search
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -103,13 +103,13 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# Site Author. For Author Sidebar
 author:
   name             : "Jaehyun Bhang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : /assets/images/GD.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Sophomore(on '23) at UNIST with major in computer science and minor in biology.\n**amazing** person."
   location         : "Korea"
-  email            :
+  email            : ryanbhang129@unist.ac.kr
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -142,8 +142,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/calculus0129"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
@@ -288,7 +289,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true # 읽는데 걸리는 소요시간 표시
-      show_date: true # 포스팅 날짜 표시...안되네?
+      show_date: true # 포스팅 날짜 표시
       comments: # true
       share: true
       related: true
