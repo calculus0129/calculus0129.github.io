@@ -1,13 +1,17 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Post"
     url: /post/
+  - title: "Category"
+    url: /categories/
   - title: "GD Website"
     url: https://calculus0129.github.io/gdwebsite/
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Introduction"
+    url: /about/
+  #- title: "Sample Posts"
+  #  url: /year-archive/
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Collections"

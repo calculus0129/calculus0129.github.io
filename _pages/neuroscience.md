@@ -1,11 +1,10 @@
 ---
-title: "Tests"
+title: "Neuroscience"
 layout: archive
-permalink: categories/tests
+permalink: categories/study/neuroscience
 author_profile: true
 sidebar_main: true
 ---
 
-
-{% assign posts = site.categories.tests %}
+{% assign posts = site.categories.neuroscience %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
