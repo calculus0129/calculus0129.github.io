@@ -1,5 +1,5 @@
 ---
-title: "\[NeuroSci 1\] Neurons and Glias"
+title: \[NeuroSci 1\] Neurons and Glias
 header: header
 toc: true
 toc_sticky: true
