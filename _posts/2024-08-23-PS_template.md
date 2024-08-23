@@ -41,7 +41,7 @@ usage: `sh make.sh (somename).cc`
 `template.cc`
 
 ```cpp
-// Reference: calculus0129.github.io/PS/PS_template/
+// Reference: calculus0129.github.io/ps/PS_template/
 
 // For Additional Codes
 // https://www.acmicpc.net/blog/view/106
@@ -219,7 +219,7 @@ OUTPUT& operator<< (OUTPUT& out, T i) {
 
 e.g. `b6086_total_flow_edmondskarp.java`
 
-```Java
+```java
 import java.io.*;
 import java.util.*;
 
@@ -297,7 +297,25 @@ public class b6086_total_flow_edmondskarp {
 
 ### PyPy3
 
-```python
+```py
+# https://velog.io/@cria2000/백준-1515-수-이어-쓰기python
+import sys
+inp = sys.stdin.readline
+wr = sys.stdout.write
+# print(inp().rstrip())
+
+nums = inp().rstrip()
+ans, idx, n, out = 0, 0, len(nums), False
+
+while not out and idx<n:
+    ans+=1
+    for c in str(ans):
+        if idx>=n:
+            out=True
+            break
+        if c == nums[idx]:
+            idx+=1
+wr(str(ans))
 
 ```
 
